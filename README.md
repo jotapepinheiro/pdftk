@@ -21,4 +21,4 @@ RUN if [ ${INSTALL_PDFTK} = true ]; then \
 	apt-get install -y pdftk \
 ;fi
 
-![](arquivos/exemplo.pdf)
+[Exemplo](arquivos/exemplo.pdf)
