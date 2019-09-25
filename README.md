@@ -20,3 +20,9 @@ RUN if [ ${INSTALL_PDFTK} = true ]; then \
 	# Install all dependencies
 	apt-get install -y pdftk \
 ;fi
+
+<object data="arquivos/exemplo.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="arquivos/exemplo.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="arquivos/exemplo.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
