@@ -27,9 +27,8 @@ foreach ($arquivos as $key => $item) {
 $temp = $pdf->getTmpFile();
 $content = file_get_contents( (string) $temp );
 
-echo $temp->getFileName();
 header('Content-type: application/pdf');
-header('Content-Disposition: inline; filename="testes.pdf"');
+header('Content-Disposition: inline; filename="agrupado.pdf"');
 header('Content-Transfer-Encoding: binary');
 header('Content-Length: ' . filesize($content));
 header('Accept-Ranges: bytes');
