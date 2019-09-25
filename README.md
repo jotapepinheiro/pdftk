@@ -8,7 +8,7 @@ Ubuntu 16.04
 - sudo apt install pdftk
 
 ## Laradock /Users/username/Dev/laradock/php-fpm/Dockerfile
-'''
+```
 	#####################################
 	# pdftk:
 	#####################################
@@ -21,7 +21,6 @@ Ubuntu 16.04
 		# Install all dependencies
 		apt-get install -y pdftk \
 	;fi
-'''
-
+```
 
 [Exemplo](arquivos/exemplo.pdf)
